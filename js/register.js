@@ -20,7 +20,7 @@ $(function(){
 //正则验证
     //ajax请求注册接口
     $("#regist").click(function(){
-        if($("#select").checked==true){
+        if($("#select").prop("checked")==true){
             if(flagPhone && flagYZM && flagPWD && flagRepwd){
                 $.ajax({
                     type: "get",
