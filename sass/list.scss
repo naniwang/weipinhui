@@ -1,0 +1,56 @@
+@import "common";
+.product{
+    width: 1000px;
+    overflow: hidden;
+    margin: 50px auto;
+    .proList{
+        width: 1100px;
+        li{
+            width: 235px;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            img{
+                width: 235px;
+                height: 297px;
+            }
+            span{
+                display: block;
+                color: #fff;
+                background-color: #f10180;
+                background: -webkit-linear-gradient(left,#f10180 60%,#fe3b07 100%);
+                background: linear-gradient(to right,#f10180 60%,#fe3b07 100%);
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                height: 33px;
+                position: relative;
+                em{
+                    font-style: normal;
+                    font-size: 14px;
+                    position: absolute;
+                    bottom: 2px;
+                    left: 10px;
+                }
+                strong{
+                    font-size: 18px;
+                    position: absolute;
+                    bottom: 2px;
+                    left: 50px;
+                }
+            }
+            .pname{
+                font-size: 14px;
+                padding: 3px 0 4px;
+                color: #666;
+            }
+            .pdesc{
+                max-height: 36px;
+                _height: 36px;
+                margin-bottom: 8px;
+                overflow: hidden;
+                font-size: 12px;
+                color: #666;
+            }
+        }
+    }
+}

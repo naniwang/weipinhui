@@ -1,0 +1,171 @@
+@import "register";
+.conter{
+    .content{
+        .bd{
+           .toubu{
+                width: 360px;
+                height: 45px;
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                align-items: center;
+                h3{
+                    flex: 1;
+                    text-align: center;
+                    &:first-child{
+                        border-right: 1px solid #ccc;
+                    }
+                    &:hover{
+                        color: #f11eabf8;
+                    }
+                    &.saoma{
+                        color: #f11eabf8;
+                    }
+                }
+            } 
+            .scan-login{
+                position: relative; 
+                text-align: center;
+                padding-top: 30px;
+                .scan-box{
+                    height: 156px; 
+                    padding: 20px 34px 0; 
+                    position: relative; 
+                    margin-bottom: 17px;
+                    .erweima{
+                        width: 145px; 
+                        height: 145px; 
+                        margin: 0 auto; 
+                        position: relative;
+                        border: 1px solid #ccc;
+                        img{
+                            margin: 9px 9px;
+                        }
+                    }
+                    .saomatu{
+                        position: absolute; 
+                        top: -20px; 
+                        right: 34px; 
+                        width: 133px; 
+                        height: 200px; 
+                        display: none;
+                    }
+                }p{
+                    text-align: center; 
+                    margin-bottom: 7px; 
+                    font-size: 12px;
+                }
+            }
+            .pc-login{
+                position: relative; 
+                width: 360px; 
+                margin-top: 40px; 
+                background: #fff; 
+                display: none;
+                .user-login{
+                    padding: 0 24px;
+                    .username{
+                        position: relative; 
+                        border: 1px solid #ddd; 
+                        color: #999; 
+                        padding: 0 32px 0 10px; 
+                        height: 36px; 
+                        overflow: hidden; 
+                        margin-bottom: 20px; 
+                        clear: both;
+                    }
+                    .userpwd{
+                        position: relative; 
+                        border: 1px solid #ddd; 
+                        color: #999; 
+                        padding: 0 32px 0 10px; 
+                        height: 36px; 
+                        overflow: hidden; 
+                        margin-bottom: 20px; 
+                        clear: both;
+                    }
+                    .login-help{
+                        line-height: 35px; 
+                        height: 35px; 
+                        margin-top: 10px;
+                        padding-top: 10px;
+                        a{
+                            font-size: 12px; 
+                            color: #333333;
+                            &:hover{
+                                color: #f11eabf8;
+                            }
+                        }
+                        .message{
+                            font-size: 12px; 
+                            color: #333333;
+                            float: left;
+                            #sel{
+                                width: 20px;
+                                height: 20px;
+                                margin-right: 10px;
+                            }
+                        }
+                        .forget{
+                            float: right;
+                        }
+                    }
+                    input{
+                        height: 36px; 
+                        width: 230px; 
+                        line-height: 36px; 
+                        margin-left: 10px; 
+                        border: 0; 
+                        font-size: 14px; 
+                        outline: none;
+                    }
+                    #login-btn{
+                        display: block; 
+                        width: 310px; 
+                        line-height: 40px; 
+                        margin: 0 auto; 
+                        background: #f11eabf8; 
+                        border-radius: 2px; 
+                        font-size: 20px; 
+                        font-weight: 700; 
+                        text-align: center; 
+                        color: #fff;
+                        margin-bottom: 20px;
+                        border: 0;
+                    }
+                }
+            }
+            .login-method{
+                position: relative; 
+                width: 310px; 
+                margin: 20px auto; 
+                border-top: 1px solid #ddd; 
+                padding: 19px 0 17px; 
+                font-size: 12px; 
+                margin-bottom: 10px;
+                span{
+                    position: absolute; 
+                    top: -9px; 
+                    left: 50%; 
+                    margin-left: -30px; 
+                    color: #999; 
+                    width: 70px; 
+                    background: #fff; 
+                    text-align: center;
+                }
+                a{
+                    float: left; 
+                    padding: 0 10px; 
+                    border-right: 1px solid #dedcd5; 
+                    line-height: 16px; 
+                    color: #333333;
+                    &:hover{
+                        color:#f11eabf8; 
+                    }
+                    &:last-of-type{
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}

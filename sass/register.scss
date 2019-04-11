@@ -1,0 +1,142 @@
+@import "common";
+.header{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    h1{
+        float: left;
+        margin-top: 3px;
+    }
+    .right{
+        float: right;
+        width: 350px;
+        margin-top: 35px;
+        overflow: hidden;
+        p{
+            float: left;
+            margin-right: 10px;
+            img{
+                margin-right: 5px;
+                float: left;
+            }
+            span{
+                line-height: 30px;
+            }
+        }
+    }
+}
+.conter{
+    width: 100%;
+    height: 655px;
+    background: url(../img/rbg.png);
+    .content{
+        width: 1000px;
+        height: 655px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        .bd{
+            background: #fff;
+            width: 360px;
+            border-radius: 2px;
+            float: right;
+            padding-bottom: 50px;
+            .tou{
+                height: 50px;
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-bottom: 30px;
+                p{
+                    a{
+                        color: #f1e;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .ipt{
+                width: 300px;
+                height: 45px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+                padding-left: 10px;
+                input{
+                    border: 0;
+                    outline: none;
+                }
+                #pwd{
+                    width: 260px;
+                }
+            }
+            .yzmIpt{
+                width: 170px;
+                margin-right: 20px;
+                float: left;
+                input{
+                    width: 80px;
+                }
+            }
+            #getYZM{
+                width: 110px;
+                height: 45px;
+                display: inline-block;
+                background: #ccc;
+                border-radius: 3px;
+                line-height: 45px;
+                text-align: center;
+            }
+            .ts{
+                width: 300px;
+                height: 25px;
+                color: red;
+                font-size: 12px;
+                line-height: 25px;
+                clear: both;
+                padding-left: 35px;
+            }
+            .tk{
+                overflow: hidden;
+                margin-left: 30px;
+                #select{
+                    float: left;
+                    margin-right: 8px;
+                    width: 20px;
+                    height: 20px;
+                }
+                p{
+                    float: left;
+                    width: 270px;
+                    font-size: 12px;
+                    a{
+                        color: rgba(140, 171, 230, 0.808);
+                    }
+                }
+            }
+            #regist{
+                width: 300px;
+                height: 45px;
+                background: #f11eabf8;
+                line-height: 45px;
+                text-align: center;
+                color: #fff;
+                font-size: 18px;
+                margin-top: 30px;
+                border: 0;
+                border-radius: 3px;
+                margin-left: 30px;
+            }
+        }
+    } 
+}
+.foot{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}

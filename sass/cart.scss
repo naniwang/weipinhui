@@ -1,0 +1,165 @@
+@import "common";
+.cart{
+    width: 1000px;
+    margin: 50px auto;
+    .cart-prolist{
+        width: 1000px;
+        border: 1px solid #ccc;
+        overflow: hidden;
+        padding: 15px 0 15px 15px;
+        li{
+            width: 928px;
+           .pro-desc{
+                width: 350px;
+                height: 74px;
+                vertical-align: top;
+                float: left;
+                .imag{
+                    position: relative;
+                    width: 58px;
+                    height: 74px;
+                    float: left;
+                    img{
+                        width: 58px;
+                        height: 56px;
+                        line-height: 14px;
+                    }
+                    .posit{
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        z-index: 1;
+                        width: 100%;
+                        height: 18px;
+                        line-height: 18px;
+                        color: #fff;
+                        text-align: center;
+                        background-color: #f10180;
+                        background-color: rgba(241,1,128,.7);
+                        font-size: 12px; 
+                    }
+                }
+                .desc{
+                    float: left;
+                    padding-left: 20px;
+                    h6{
+                        width: 180px;
+                        max-height: 32px;
+                        overflow: hidden;
+                        margin-bottom: 10px;
+                        color: #333; 
+                        font-size: 12px;
+                        font-weight: normal;
+                        cursor: pointer;
+                        &:hover{
+                            color: #f10180;
+                        }
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+           }
+           .pro-price{
+               float: left;
+               width: 150px;
+               text-align: center;
+               padding-top: 15px;
+                height: 74px;
+                vertical-align: top;
+                font-size: 12px;
+                color: #333;
+                .perPrice{
+                    font-size: 14px;
+                }
+           }
+           .change-num{
+                padding-top: 15px;
+                height: 74px;
+                vertical-align: top;
+                position: relative;
+                padding: 10px 35px;
+                border-radius: 2px;
+                float: left;
+                .minus,.plus{
+                    float: left;
+                    height: 26px;
+                    width: 25px;
+                    line-height: 25px;
+                    background-color: #f7f3f3;
+                    color: #b8b0b0;
+                    border: 1px solid #e4e3e3;
+                    outline: none;
+                    &:hover{
+                        background: #dfdbdb;
+                        color: rgb(187, 184, 184);
+                    }
+                }
+                strong{
+                    height: 24px;
+                    line-height: 24px;
+                    width: 25px;
+                    font-size: 12px;
+                    border: 1px solid #e4e3e3;
+                    overflow: hidden; 
+                    font-weight: normal;
+                    float: left;
+                    text-align: center; 
+                }
+            }
+            .xiaoji{
+                width: 165px;
+                text-align: center;
+                padding-top: 15px;
+                height: 74px;
+                vertical-align: top;
+                color: #f10180;
+                font-size: 12px;
+                float: left;
+                .sumPrice{
+                    font-size: 14px;
+                }
+            }
+            .shanchu{
+                width: 100px;
+                text-align: center;
+                padding-top: 15px;
+                height: 74px;
+                vertical-align: top;
+                float: left;
+                .del{
+                    color: #999;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .zhifu{
+        position: relative;
+        padding: 10px 30px 0 20px;
+        width: 965px;
+        height: 50px;
+        border: 1px solid #e2e1e1;
+        background-color: #f3f3f3;
+        position: fixed;
+        bottom: 0;
+        z-index: 51;
+        p{
+            float: left;
+            padding: 14px 0 14px 0;
+            #totalPrice{
+                color: #f10180;
+            }
+        } 
+        .tijiao{
+            float: right;
+            width: 120px;
+            height: 45px;
+            border: 0;
+            background: #f10180;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+}
